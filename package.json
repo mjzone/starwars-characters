@@ -1,0 +1,28 @@
+{
+  "name": "starwars-characters",
+  "version": "1.0.0",
+  "description": "Get random starwars names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjzone/starwars-characters.git"
+  },
+  "keywords": [
+    "random",
+    "star",
+    "wars",
+    "characters"
+  ],
+  "author": "Manoj Fernando <mj.bitwave@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjzone/starwars-characters/issues"
+  },
+  "homepage": "https://github.com/mjzone/starwars-characters#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
