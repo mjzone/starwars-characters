@@ -1,40 +1,40 @@
 {
-  "name": "starwars-characters",
-  "version": "0.0.0-semantically-released",
-  "description": "Get random starwars names",
-  "main": "src/index.js",
-  "scripts": {
-    "commit": "git-cz",
-    "test": "mocha src/index.test.js -w",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mjzone/starwars-characters.git"
-  },
-  "keywords": [
-    "random",
-    "star",
-    "wars",
-    "characters"
-  ],
-  "author": "Manoj Fernando <mj.bitwave@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mjzone/starwars-characters/issues"
-  },
-  "homepage": "https://github.com/mjzone/starwars-characters#readme",
-  "dependencies": {
-    "unique-random-array": "1.0.0"
-  },
-  "devDependencies": {
-    "chai": "3.5.0",
-    "commitizen": "2.8.6",
-    "cz-conventional-changelog": "1.2.0",
-    "mocha": "3.1.0",
-    "semantic-release": "^4.3.5"
-  }
-  "czConfig":{
-      "path": "node_modules/cz-conventional-changelog"
-  }
+    "name": "starwars-characters",
+    "version": "0.0.0-semantically-released",
+    "description": "Get random starwars names",
+    "main": "src/index.js",
+    "scripts": {
+        "commit": "git-cz",
+        "test": "mocha src/index.test.js -w",
+        "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mjzone/starwars-characters.git"
+    },
+    "keywords": [
+        "random",
+        "star",
+        "wars",
+        "characters"
+    ],
+    "author": "Manoj Fernando <mj.bitwave@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mjzone/starwars-characters/issues"
+    },
+    "homepage": "https://github.com/mjzone/starwars-characters#readme",
+    "dependencies": {
+        "unique-random-array": "1.0.0"
+    },
+    "devDependencies": {
+        "chai": "3.5.0",
+        "commitizen": "2.8.6",
+        "cz-conventional-changelog": "1.2.0",
+        "mocha": "3.1.0",
+        "semantic-release": "^4.3.5"
+    },
+    "czConfig": {
+        "path": "node_modules/cz-conventional-changelog"
+    }
 }
